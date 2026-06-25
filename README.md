@@ -85,5 +85,26 @@ Fama-French 3 Factor 프리미엄의 시장 반영 과정을 분석한 프로젝
 당일 변수 포함 시 방향 정확도 77% → lag만 사용 시 52%로 하락
 실전 예측은 반드시 lag 피처만 사용해야 함
 
+## Part 3 - 미국 vs 아시아 태평양 팩터 비교
+
+### Data
+- 출처: Kenneth French Data Library (Asia Pacific ex Japan)
+- 기간: 1990 ~ 2026
+
+### Key Findings
+
+| 팩터 | 미국 FF5 후 | 아시아 FF5 후 |
+|------|------------|--------------|
+| SMB | -0.167% | -0.12% |
+| HML | -0.049% | +0.48% ← 아직 강함 |
+| RMW | +0.243% | +0.35% |
+| CMA | -0.090% | +0.05% |
+
+### Conclusion
+- 아시아 HML 프리미엄이 미국보다 훨씬 강하게 유지
+- 정보 비대칭과 분석 비용이 높아 프리미엄 소멸 속도 느림
+- 코리아 디스카운트와 연결 — 저평가 해소 과정이 진행중
+- 상승은 필연이나 타이밍은 예측 불가 → EMH 재확인
+  
 ## Requirements
 pandas, numpy, matplotlib, seaborn, yfinance, pandas-datareader, xgboost, scikit-learn, scipy
