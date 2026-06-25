@@ -2,7 +2,7 @@
 
 ## Overview
 S&P500 수익률 예측 가능성을 거시경제 변수와 XGBoost로 검증하고,
-Fama-French 3 Factor 프리미엄의 시장 반영 과정을 분석한 프로젝트.
+Fama-French 3 Factor 프리미엄의 시장 반영 과정을 분석
 
 ## Research Questions
 > 1. "어제의 거시경제 변수로 오늘의 S&P500 수익률 방향을 예측할 수 있는가?" (약형 EMH)
